@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('//db.onlinewebfonts.com/c/c56ea8aca8b3b1f84bcb7365c6ae4af0?family=Kalameh'); */
+@font-face {
+  font-family: Kalameh;
+  src: url("../fonts/KalamehWeb-Regular.woff");
+}
+@font-face {
+  font-family: KalamehMed;
+  src: url("../fonts/KalamehWeb-Medium.woff");
+}
+@font-face {
+  font-family: KalamehSemi;
+  src: url("../fonts/KalamehWeb-SemiBold.woff");
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.datePickerStyle {
+  width: 100%;
+  background-color: black;
+}
+button,
+button:focus {
+  outline: none;
+}
+
+.ck-addproduct .ck-editor__editable {
+  min-height: 400px;
+  outline: none;
+  border: none; 
+}

@@ -1,0 +1,6 @@
+export const addBlogsStatus = {
+  DRAFT: "DRAFT",
+  PUBLISHED: "PUBLISHED",
+  PUBLISHING: "PUBLISHING",
+  DISABLED: "DISABLED",
+};
